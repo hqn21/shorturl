@@ -75,9 +75,9 @@ else {
     <title>ShortURL</title>
 
     <script>
-
+        
+        // TODO
         function copyLink(unique) {
-            alert(unique.value());
         }
 
         function sendData() {
