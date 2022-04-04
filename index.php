@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         case 'sendData':
             global $mysql;
             $unique = strtolower($_POST['unique']);
-            $original = strtolower($_POST['original']);
+            $original = $_POST['original'];
             $sendDataAction = mysqli_query($mysql, "INSERT INTO url (unique_id, original_url) VALUES ('$unique', '$original')");
             if($sendDataAction) {
                 echo json_encode("OK!");
