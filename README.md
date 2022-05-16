@@ -1,7 +1,7 @@
 # shorturl
 English | [繁體中文](docs/README_zh-tw.md)
 ## About The Project
-This is an URL Shortener tool.
+This is an URL shortener tool.
 ### Built With
 * jQuery
 * Bootstrap
